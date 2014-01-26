@@ -83,7 +83,7 @@ http://www.usaspending.gov/datafeeds/2013_All_Contracts_Full_20131015.csv.zip
 
 Which are available at http://www.usaspending.gov/data under the Archives tab. There is an example file in the federal_spending/usaspending/downloads folder. Here's an example of how to use the command with the example file included in the project:
 
-    manage.py download_files downloads.20131105.txt
+    manage.py download_files federal_spending/usaspending/downloads/all_downloads.txt
 
 
 manage.py convert_usaspending_contracts

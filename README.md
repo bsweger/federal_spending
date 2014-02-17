@@ -38,7 +38,7 @@ After filling in your database settings in the Django settings file, run
 to create the tables.
 
 If you are using postgresql and will be using the indexes with this project, you will need to create some text search elements within postgresql. To do that, move the file in the root directory of the project (federal_spending.stop) to your postgresql text search directory. On version 9.1, that is 
-/usr/share/postgresql/9.1/tsearchdata/ .
+/usr/share/postgresql/9.1/tsearch_data/ .
 
 Once you move the stopwords file, you can create the text search indexes like this: 
 
